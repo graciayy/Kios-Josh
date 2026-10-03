@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="14dp"
+    android:layout_marginEnd="14dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Top Row: Order ID & Status Badge -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tv_cust_order_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="KJ-20260519-01"
+                android:textColor="@color/medium_gray"
+                android:textSize="11sp"
+                android:fontFamily="monospace"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_cust_orderStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PENDING"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:background="#FF8B261D" />
+        </LinearLayout>
+
+        <!-- Order Sub-info: Date & Delivery Type -->
+        <TextView
+            android:id="@+id/tv_cust_order_sub_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hari ini • DELIVERY"
+            android:textColor="@color/medium_gray"
+            android:textSize="11sp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Address Info if delivery -->
+        <TextView
+            android:id="@+id/tv_cust_order_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jl. Raya Politeknik No. 45, Buha, Manado"
+            android:textColor="@color/medium_gray"
+            android:textSize="11sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Items list block -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFF9F4E8"
+            android:padding="8dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tv_cust_order_items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2x Tinutuan (Bubur Manado)\n1x Es Kacang Merah (Brenebon)"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:lineSpacingExtra="3dp" />
+        </LinearLayout>
+
+        <!-- Divider line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFEBEBEB"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Bottom Row: Total & Action tracker if active -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Pembayaran"
+                    android:textColor="@color/medium_gray"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/tv_cust_orderTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp 35,000"
+                    android:textColor="@color/primary_orange"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Optional Tracker Info / Active highlight -->
+            <TextView
+                android:id="@+id/tv_click_to_track"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Telusuri Pesanan ➔"
+                android:textColor="@color/primary_orange"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

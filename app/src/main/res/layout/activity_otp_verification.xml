@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verification Code"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the 6-digit OTP code sent to your phone number."
+        android:textColor="@color/medium_gray"
+        android:textSize="14sp"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/et_otp_code"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="------"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.2"
+        android:inputType="number"
+        android:maxLength="6"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_verify_otp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Verify &amp; Activate"
+        android:backgroundTint="@color/primary_orange" />
+
+    <TextView
+        android:id="@+id/tv_resend_otp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend Code in 59s"
+        android:textColor="@color/medium_gray"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

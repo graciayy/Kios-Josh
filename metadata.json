@@ -1,0 +1,6 @@
+{
+  "name": "Kios Josh",
+  "description": "Implementasi sistem pemesanan makanan digital di Kios Josh untuk UMKM kuliner di Sulawesi Utara",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

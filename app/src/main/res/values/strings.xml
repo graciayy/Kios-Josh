@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kios Josh</string>
+    <string name="welcome_message">Welcome to Kios Josh</string>
+    <string name="tagline_manado_porridge">Manado\'s Authentic Culinary Hub</string>
+    <string name="login_title">Log In to Your Account</string>
+    <string name="register_title">Create New Account</string>
+</resources>

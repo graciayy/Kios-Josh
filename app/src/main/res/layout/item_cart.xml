@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="6dp"
+    android:layout_marginHorizontal="4dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/iv_cart_item_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:background="@android:drawable/dialog_holo_light_frame" />
+
+        <!-- Info and Controls -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="14dp">
+
+            <TextView
+                android:id="@+id/tv_cart_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:text="Nasi Kuning" />
+
+            <TextView
+                android:id="@+id/tv_cart_item_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/primary_orange"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:text="Rp 13.000" />
+
+            <!-- Quantity controls -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:id="@+id/btn_cart_decrease"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:text="-"
+                    android:textSize="12sp"
+                    android:padding="0dp"
+                    style="@style/Widget.Material3.Button.IconButton" />
+
+                <TextView
+                    android:id="@+id/tv_cart_quantity"
+                    android:layout_width="28dp"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/btn_cart_increase"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:text="+"
+                    android:textSize="12sp"
+                    android:padding="0dp"
+                    style="@style/Widget.Material3.Button.IconButton" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Delete item button -->
+        <ImageButton
+            android:id="@+id/btn_cart_delete"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_delete"
+            app:tint="@color/error_red" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

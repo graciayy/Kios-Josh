@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/primary_orange"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your role to continue"
+        android:textColor="@color/medium_gray"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/btn_customer_mode"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Enter as Customer"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary_orange"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_admin_mode"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Enter as Shop Administrator"
+        android:textColor="@color/primary_orange"
+        style="@style/Widget.Material3.Button.ElevatedButton" />
+
+</LinearLayout>

@@ -1,0 +1,510 @@
+{
+  "products": [
+    {
+      "id": "m1",
+      "name": "Tinutuan",
+      "category": "Makanan",
+      "price": 10000,
+      "stock": 50,
+      "description": "Bubur Manado otentik gurih hangat cocok dicanangkan dengan dabu-dabu iris atau sambal roa.",
+      "imageUrl": "tinutuan.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m2",
+      "name": "Tinutuan Brenebon Ceker",
+      "category": "Makanan",
+      "price": 15000,
+      "stock": 50,
+      "description": "Tinutuan lezat dengan tambahan sup kacang merah (brenebon) dan ceker ayam empuk.",
+      "imageUrl": "tinutuan_brenebon_ceker.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m3",
+      "name": "Midal (Tinu Campur Mi)",
+      "category": "Makanan",
+      "price": 10000,
+      "stock": 50,
+      "description": "Kombinasi bubur Manado Tinutuan dicampur mie kuning lezat khas Sulawesi Utara.",
+      "imageUrl": "midal.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m4",
+      "name": "Midal Brenebon Ceker",
+      "category": "Makanan",
+      "price": 15000,
+      "stock": 50,
+      "description": "Midal istimewa disajikan dengan kuah sup brenebon kacang merah dan ceker empuk.",
+      "imageUrl": "midal_brenebon_ceker.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m5",
+      "name": "Mie Cakalang",
+      "category": "Makanan",
+      "price": 13000,
+      "stock": 50,
+      "description": "Mie kuah khas dengan suwiran cakalang asap harum khas Bumi Nyiur Melambai.",
+      "imageUrl": "mie_cakalang.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m6",
+      "name": "Mi Cakalang Brenebon Ceker",
+      "category": "Makanan",
+      "price": 18000,
+      "stock": 50,
+      "description": "Mie cakalang spesial dengan topping brenebon kacang merah dan ceker ayam empuk.",
+      "imageUrl": "mie_cakalang_brenebon_ceker.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m7",
+      "name": "Nasi Kuning",
+      "category": "Makanan",
+      "price": 10000,
+      "stock": 50,
+      "description": "Nasi kuning wangi khas Manado dibungkus rapi dengan daun woka aromatik.",
+      "imageUrl": "nasi_kuning.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m8",
+      "name": "Nasi Kuning + Telur",
+      "category": "Makanan",
+      "price": 13000,
+      "stock": 50,
+      "description": "Nasi kuning Manado daun woka lengkap dengan tambahan telur rebus atau telur dadar.",
+      "imageUrl": "nasi_kuning_telur.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m9",
+      "name": "Nasi Ayam Lalapan",
+      "category": "Makanan",
+      "price": 25000,
+      "stock": 50,
+      "description": "Nasi hangat pulen dengan ayam goreng gurih, lalapan segar melimpah, dan dabu dabu rica meresap.",
+      "imageUrl": "nasi_ayam_lalapan.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m10",
+      "name": "Nasi Ayam Geprek",
+      "category": "Makanan",
+      "price": 15000,
+      "stock": 50,
+      "description": "Nasi hangat dengan ayam goreng renyah digeprek sambal pedas mematikan.",
+      "imageUrl": "nasi_ayam_geprek.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m11",
+      "name": "Nasi Putih",
+      "category": "Makanan",
+      "price": 5000,
+      "stock": 50,
+      "description": "Seporsi nasi putih hangat yang pulen.",
+      "imageUrl": "nasi_putih.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m12",
+      "name": "Brenebon Ceker",
+      "category": "Makanan",
+      "price": 8000,
+      "stock": 50,
+      "description": "Kuah sup kacang merah hangat penuh kaldu gurih dengan tekstur ceker ayam empuk.",
+      "imageUrl": "brenebon_ceker.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m13",
+      "name": "Telur Dadar",
+      "category": "Makanan",
+      "price": 5000,
+      "stock": 50,
+      "description": "Telur dadar goreng kering gurih nan renyah cocok untuk lauk tambahan.",
+      "imageUrl": "telur_dadar.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m14",
+      "name": "Telur Mata Sapi",
+      "category": "Makanan",
+      "price": 5000,
+      "stock": 50,
+      "description": "Telur mata sapi lezat digoreng segar.",
+      "imageUrl": "telur_mata_sapi.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "m15",
+      "name": "Telur Rebus",
+      "category": "Makanan",
+      "price": 4000,
+      "stock": 50,
+      "description": "Sebutir telur ayam rebus bergizi tinggi.",
+      "imageUrl": "telur_rebus.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d1",
+      "name": "Es Campur",
+      "category": "Minuman",
+      "price": 15000,
+      "stock": 50,
+      "description": "Es campur segar melimpah dengan aneka isian buah sirup pandan susu manis.",
+      "imageUrl": "es_campur.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d2",
+      "name": "Es Brenebon Susu",
+      "category": "Minuman",
+      "price": 13000,
+      "stock": 50,
+      "description": "Es serut kacang merah (brenebon) manis wangi dengan lumuran susu kental manis.",
+      "imageUrl": "es_brenebon_susu.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d3",
+      "name": "Es Brenebon Alpukat",
+      "category": "Minuman",
+      "price": 15000,
+      "stock": 50,
+      "description": "Es kacang merah legendaris dikombinasikan dengan potongan buah alpukat segar.",
+      "imageUrl": "es_brenebon_alpukat.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d4",
+      "name": "Es Brenebon Kacang",
+      "category": "Minuman",
+      "price": 15000,
+      "stock": 50,
+      "description": "Es serut legendaris kacang merah dengan ekstra serutan kacang renyah.",
+      "imageUrl": "es_brenebon_kacang.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d5",
+      "name": "Es Kacang",
+      "category": "Minuman",
+      "price": 13000,
+      "stock": 50,
+      "description": "Es serut kacang merah manis lembut dengan sirup coklat/frambozen khas Sulawesi.",
+      "imageUrl": "es_kacang.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d6",
+      "name": "Es Kacang Alpukat",
+      "category": "Minuman",
+      "price": 15000,
+      "stock": 50,
+      "description": "Es kacang legendaris disajikan dengan alpukat mentega legit melimpah.",
+      "imageUrl": "es_kacang_alpukat.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d7",
+      "name": "Jus Alpukat",
+      "category": "Minuman",
+      "price": 15000,
+      "stock": 50,
+      "description": "Jus alpukat segar murni kental dengan balutan susu kental manis cokelat.",
+      "imageUrl": "jus_alpukat.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d8",
+      "name": "Jus Sirsak",
+      "category": "Minuman",
+      "price": 15000,
+      "stock": 50,
+      "description": "Jus buah sirsak murni asam manis segar dingin menyegarkan.",
+      "imageUrl": "jus_sirsak.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d9",
+      "name": "Jus Buah Naga",
+      "category": "Minuman",
+      "price": 15000,
+      "stock": 50,
+      "description": "Jus buah naga merah segar tinggi serat dan antioksidan alami.",
+      "imageUrl": "jus_buah_naga.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d10",
+      "name": "Nutrisari",
+      "category": "Minuman",
+      "price": 5000,
+      "stock": 50,
+      "description": "Es jeruk Nutrisari segar penambah energi berlimpah vitamin C.",
+      "imageUrl": "nutrisari.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d11",
+      "name": "Es Teh",
+      "category": "Minuman",
+      "price": 5000,
+      "stock": 50,
+      "description": "Segelas es teh manis segar dingin pelepas dahaga nomor satu.",
+      "imageUrl": "es_teh.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d12",
+      "name": "Teh Panas",
+      "category": "Minuman",
+      "price": 5000,
+      "stock": 50,
+      "description": "Teh manis hangat dengan aroma harum melati penenang.",
+      "imageUrl": "teh_panas.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d13",
+      "name": "Kopi Gelas Kecil",
+      "category": "Minuman",
+      "price": 5000,
+      "stock": 50,
+      "description": "Kopi hitam robusta pekat diseduh dalam gelas kecil tradisi.",
+      "imageUrl": "kopi_gelas_kecil.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d14",
+      "name": "Kopi Gelas Besar",
+      "category": "Minuman",
+      "price": 8000,
+      "stock": 50,
+      "description": "Kopi hitam robusta pekat diseduh mantap dalam gelas ukuran besar.",
+      "imageUrl": "kopi_gelas_besar.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d15",
+      "name": "Kopi Susu Gelas Kecil",
+      "category": "Minuman",
+      "price": 7000,
+      "stock": 50,
+      "description": "Kopi robusta dicampur kental manis dalam gelas porsi kecil.",
+      "imageUrl": "kopi_susu_gelas_kecil.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d16",
+      "name": "Kopi Susu Gelas Besar",
+      "category": "Minuman",
+      "price": 10000,
+      "stock": 50,
+      "description": "Kopi robusta pekat campur susu legit kental dalam gelas besar mantap.",
+      "imageUrl": "kopi_susu_gelas_besar.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d17",
+      "name": "Aqua Botol",
+      "category": "Minuman",
+      "price": 5000,
+      "stock": 50,
+      "description": "Air mineral Aqua kemasan botol segar higienis.",
+      "imageUrl": "aqua_botol.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "d18",
+      "name": "Es Batu",
+      "category": "Minuman",
+      "price": 2000,
+      "stock": 50,
+      "description": "Es batu murni tambahan untuk kesegaran ekstra.",
+      "imageUrl": "es_batu.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "s1",
+      "name": "Perkedel Ikan Putih",
+      "category": "Gorengan & Snack",
+      "price": 3000,
+      "stock": 50,
+      "description": "Perkedel berbahan dasar olahan ikan putih khas Sulawesi yang lembut.",
+      "imageUrl": "perkedel_ikan_putih.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "s2",
+      "name": "Perkedel Nike",
+      "category": "Gorengan & Snack",
+      "price": 3000,
+      "stock": 50,
+      "description": "Gorengan kering perkedel ikan nike musiman asli dari Danau Tondano.",
+      "imageUrl": "perkedel_nike.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "s3",
+      "name": "Perkedel Milu",
+      "category": "Gorengan & Snack",
+      "price": 2000,
+      "stock": 50,
+      "description": "Perkedel jagung (milu) khas Manado bertekstur super garing krispi.",
+      "imageUrl": "perkedel_milu.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "s4",
+      "name": "Tahu Goreng/Rebus",
+      "category": "Gorengan & Snack",
+      "price": 2000,
+      "stock": 50,
+      "description": "Tahu goreng renyah atau tahu rebus lembut, disajikan hangat.",
+      "imageUrl": "tahu_goreng_rebus.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "s5",
+      "name": "Tahu Garing/Porsi",
+      "category": "Gorengan & Snack",
+      "price": 10000,
+      "stock": 50,
+      "description": "Seporsi tahu garing renyah dipotong dadu dilengkapi cocolan rica.",
+      "imageUrl": "tahu_garing.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "s6",
+      "name": "Milu Rebus",
+      "category": "Gorengan & Snack",
+      "price": 7000,
+      "stock": 50,
+      "description": "Jagung manis (milu) segar direbus empuk, disantap hangat.",
+      "imageUrl": "milu_rebus.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "s7",
+      "name": "Pisang Goreng/Porsi",
+      "category": "Gorengan & Snack",
+      "price": 10000,
+      "stock": 50,
+      "description": "Satu porsi isi pisang goreng renyah disajikan berteman sambal roa asli.",
+      "imageUrl": "pisang_goreng.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "s8",
+      "name": "Gohu",
+      "category": "Gorengan & Snack",
+      "price": 10000,
+      "stock": 50,
+      "description": "Rujak pepaya asam manis khas Sulawesi Utara dengan kuah jahe cuka pedas.",
+      "imageUrl": "gohu.jpg",
+      "isAvailable": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "KJ-20260519-01",
+      "customerName": "Gracia Ester Tendean",
+      "customerPhone": "08234666789",
+      "items": [
+        {
+          "productId": "m1",
+          "name": "Tinutuan",
+          "price": 10000,
+          "quantity": 2,
+          "notes": "Pedas sedang"
+        },
+        {
+          "productId": "d1",
+          "name": "Es Campur",
+          "price": 15000,
+          "quantity": 1
+        }
+      ],
+      "total": 35000,
+      "paymentMethod": "qris",
+      "status": "selesai",
+      "pickupOrDelivery": "delivery",
+      "deliveryAddress": "Jl. Raya Politeknik, Buha, Kec. Mapanget, Kota Manado",
+      "deliveryFee": 10000,
+      "createdAt": "2026-05-24T23:08:17.431Z"
+    },
+    {
+      "id": "KJ-20260519-02",
+      "customerName": "Michael Steve Mamengko",
+      "customerPhone": "08123456780",
+      "items": [
+        {
+          "productId": "m9",
+          "name": "Nasi Ayam Lalapan",
+          "price": 25000,
+          "quantity": 1
+        },
+        {
+          "productId": "d7",
+          "name": "Jus Alpukat",
+          "price": 15000,
+          "quantity": 1
+        }
+      ],
+      "total": 50000,
+      "paymentMethod": "cash",
+      "status": "processing",
+      "pickupOrDelivery": "pickup",
+      "deliveryAddress": "Ambil di Kios",
+      "deliveryFee": 0,
+      "createdAt": "2026-05-25T02:08:17.431Z"
+    },
+    {
+      "id": "KJ-20260519-03",
+      "customerName": "Desvita Christi Kilis",
+      "customerPhone": "08964321234",
+      "items": [
+        {
+          "productId": "m7",
+          "name": "Nasi Kuning",
+          "price": 10000,
+          "quantity": 2
+        },
+        {
+          "productId": "s3",
+          "name": "Perkedel Milu",
+          "price": 2000,
+          "quantity": 1
+        }
+      ],
+      "total": 22000,
+      "paymentMethod": "qris",
+      "status": "pending",
+      "pickupOrDelivery": "delivery",
+      "deliveryAddress": "Kosan Hijau Dekat Politeknik Negeri Manado",
+      "deliveryFee": 10000,
+      "createdAt": "2026-05-25T04:03:17.431Z"
+    }
+  ],
+  "profile": {
+    "name": "Joshua M. Pangalila",
+    "email": "joshua.m@kiosjosh.id",
+    "phone": "08123456789",
+    "address": "Jl. Sam Ratulangi No. 45, Wenang, Kota Manado, Sulawesi Utara"
+  },
+  "ingredients": [
+    { "id": "ing1", "name": "Labu Kuning (Tinutuan base)", "qty": "12", "unit": "kg", "status": "Cukup" },
+    { "id": "ing2", "name": "Ubi Manis Merah", "qty": "8", "unit": "kg", "status": "Cukup" },
+    { "id": "ing3", "name": "Daun Woka Bungkus", "qty": "45", "unit": "Lembar", "status": "Hampir Habis" },
+    { "id": "ing4", "name": "Ikan Cakalang Asap (Fufu)", "qty": "5", "unit": "kg", "status": "Cukup" },
+    { "id": "ing5", "name": "Kacang Merah Brenebon", "qty": "15", "unit": "kg", "status": "Cukup" },
+    { "id": "ing6", "name": "Ceker Ayam Bersih", "qty": "3", "unit": "kg", "status": "Kritis" },
+    { "id": "ing7", "name": "Sayur Kangkung Segar", "qty": "10", "unit": "Ikat", "status": "Cukup" }
+  ]
+}

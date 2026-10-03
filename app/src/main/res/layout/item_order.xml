@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="14dp"
+    android:layout_marginEnd="14dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Top Row: Order ID & Status Badge -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tv_order_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="KJ-20260519-01"
+                android:textColor="@color/medium_gray"
+                android:textSize="11sp"
+                android:fontFamily="monospace"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_orderStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PENDING"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:background="#FF8B261D" />
+        </LinearLayout>
+
+        <!-- Customer Identity -->
+        <TextView
+            android:id="@+id/tv_orderCustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gracia Ester Tendean"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- SubInfo: Phone & Delivery/Pickup type -->
+        <TextView
+            android:id="@+id/tv_order_sub_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tlp: 08234146147 | Delivery"
+            android:textColor="@color/medium_gray"
+            android:textSize="11sp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Address Info if delivery -->
+        <TextView
+            android:id="@+id/tv_order_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jl. Raya Politeknik No. 45, Buha, Manado"
+            android:textColor="@color/medium_gray"
+            android:textSize="11sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Highlighted Items box -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFF9F4E8"
+            android:padding="8dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tv_order_items"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2x Tinutuan (Bubur Manado)\n1x Es Kacang Merah (Brenebon)"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:lineSpacingExtra="3dp" />
+        </LinearLayout>
+
+        <!-- Divider line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFEBEBEB"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Bottom row: Total Revenue on left, Action buttons on right -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:textColor="@color/medium_gray"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/tv_orderTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp 35,000"
+                    android:textColor="@color/primary_orange"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Buttons Panel -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+
+                <!-- Button POS: Proses -->
+                <Button
+                    android:id="@+id/btn_status_process"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:text="Proses"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="0dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/primary_light"
+                    android:layout_marginEnd="4dp" />
+
+                <!-- Button POS: Selesai -->
+                <Button
+                    android:id="@+id/btn_status_complete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:text="Selesai"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="0dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/accent_green"
+                    android:layout_marginEnd="4dp" />
+
+                <!-- Button POS: Batal -->
+                <Button
+                    android:id="@+id/btn_status_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:text="Batal"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="0dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#FF9E2A2B" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
